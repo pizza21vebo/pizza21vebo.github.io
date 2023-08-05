@@ -2,11 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-.logo {
-  display: block; /* Asegura que el logo ocupe todo el ancho disponible */
-  max-width: 200px; /* Cambia el valor a tu preferencia para el ancho máximo del logo */
-  margin: 0 auto; /* Centra el logo horizontalmente */
+  background-image: url('images/pattern.jpg'); 
+  background-repeat: repeat;
 }
 
 .video-grid {
@@ -19,7 +16,7 @@ body {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* Para mantener la proporción de 16:9 */
+  padding-bottom: 56.25%;
   overflow: hidden;
 }
 
@@ -32,15 +29,9 @@ iframe {
   border: none;
 }
 
-/* Estilos adicionales opcionales */
 h1 {
   text-align: center;
   margin: 30px 0;
-}
-
-/* Estilo de fondo opcional */
-body {
-  background-color: #black;
 }
 
 
@@ -51,9 +42,9 @@ body {
 }
 
 a {
-  margin: 0 10px; /* Espacio entre los iconos */
+  margin: 0 10px; 
 }
 
 a img {
-  width: 50px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  width: 50px; 
 }
